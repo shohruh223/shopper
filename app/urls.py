@@ -24,3 +24,5 @@ urlpatterns = [
     path('forgot-password/', ForgotPasswordView.as_view(), name='forgot-password'),
     path('activate/<str:uid>/<str:token>', ActivateEmailView.as_view(), name='confirm-mail'),
 ]
+
+#nima gaplar
