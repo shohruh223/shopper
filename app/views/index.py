@@ -5,7 +5,7 @@ from django.views.generic import TemplateView, ListView, DetailView, CreateView
 from app.forms.product_form import ProductModelForm
 from app.models import Product, Category
 
-
+#sd
 # def index(request):
 #     products = Product.objects.order_by('-id')
 #     context = {
