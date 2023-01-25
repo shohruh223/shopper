@@ -12,7 +12,7 @@ from app.models import Product, Category
 #         'products':products
 #     }
 #     return render(request, 'app/index.html', context)
-
+# abdulla
 
 class IndexPage(ListView):
     # template_engine = Product.objects.order_by('-id')
