@@ -41,7 +41,7 @@ class IndexPage(ListView):
 #         'product':product
 #     }
 #     return render(request, 'app/product_details.html', context)
-
+# sdkvjsdvh
 
 class ProductDetailsPage(DetailView):
     model = Product

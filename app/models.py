@@ -6,6 +6,7 @@ from django.utils.text import slugify
 from django.db import models
 from mptt.models import MPTTModel, TreeForeignKey
 
+"""Vedio """
 
 class Category(MPTTModel):
     title = CharField(max_length=55)
