@@ -34,7 +34,7 @@ class IndexPage(ListView):
             qs = qs.filter(category__slug=slug)
         return qs
 
-#e
+#e2
 # def product_details(request, product_id):
 #     product = Product.objects.filter(id=product_id).first()
 #     context = {
